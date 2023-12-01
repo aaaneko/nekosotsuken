@@ -1,0 +1,24 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+canvas {
+    border: 1px solid #000;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+#colorPicker {
+    width: 100%;
+}

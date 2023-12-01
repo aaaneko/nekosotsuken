@@ -1,0 +1,9 @@
+/* 非表示状態 */
+.hidden {
+    display: none;
+}
+
+/* 表示状態 */
+.visible {
+    display: block;
+}

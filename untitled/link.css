@@ -1,0 +1,34 @@
+.container {
+    margin-left: 2vw;
+    width: 40vw;
+}
+
+.container-header {
+    display: flex;
+    margin-bottom: 2vh;
+    text-align: right;
+    justify-content: flex-end; /* 要素を右に配置 */
+}
+
+
+.button-group  {
+    margin-right: 10px; /* ボタン間のスペースを設定 */
+    display: flex;
+
+}
+
+.container-body {
+    border: 2px solid #000;
+    display: flex;
+    align-items: center; /* 垂直方向の中央揃え */
+}
+
+.user-icon {
+    height: 8vh;
+    margin-right: 5vw;
+}
+
+
+.img {
+    height: 8vh;
+}

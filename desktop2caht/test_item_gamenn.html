@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Elements with Bootstrap Icon</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+
+    <!-- Bootstrap Icons (Optional) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.16.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/desktop2caht/css/item.css">
+</head>
+<body>
+
+<button type="button" id="showElements" class="btn btn-primary" data-dismiss="modal" aria-label="Close">
+    <i class="bi bi-plus-circle"></i> Show Elements
+</button>
+
+<div class="elements-to-show hidden">
+    <!-- ここに表示したい要素を追加 -->
+    <p>要素1</p>
+    <p>要素2</p>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const showButton = document.getElementById("showElements");
+
+        showButton.addEventListener("click", function () {
+            // 表示したい要素を取得
+            const elementsToShow = document.querySelectorAll(".elements-to-show");
+
+            // 各要素に表示用のクラスを追加
+            elementsToShow.forEach(function (element) {
+                element.classList.add("visible");
+            });
+        });
+    });
+</script>
+
+</body>
+</html>
