@@ -1,0 +1,71 @@
+body {
+    background-color: #f0f0f0;
+    margin: 0; /* マージンを0に設定 */
+    padding: 0; /* パディングを0に設定 */
+    font-size: 16px; /* デフォルトフォントサイズを設定 */
+}
+
+/* アイコンのスタイル設定 */
+.bi {
+    font-size: 8rem;
+    color: #007BFF;
+}
+
+/* 名前のスタイル設定 */
+.name {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* 下部のアイコンのスタイル設定 */
+/* icon-wrapper1 */
+/* 共通のスタイル */
+.icon-wrapper {
+    font-size: 7rem;
+    color: #007BFF;
+}
+
+/* icon-wrapper1 */
+.icon-wrapper1 {
+    margin: 7% 0% 5% 0; /* 上右下左のマージンを設定 */
+}
+
+/* icon-wrapper2 */
+.icon-wrapper2 {
+    margin: 11.5% 0% 5% 5%; /* 上右下左のマージンを設定 */
+}
+
+/* icon-wrapper3 */
+.icon-wrapper3 {
+    margin: 10% 0 5% 8%; /* 上右下左のマージンを設定 */
+}
+
+/* icon-wrapper4 */
+.icon-wrapper4 {
+    margin: 8% 0 5% 5%; /* 上右下左のマージンを設定 */
+}
+
+/* メディアクエリ */
+@media (max-width: 768px) {
+    .icon-wrapper {
+        font-size: 5rem; /* 768px以下の場合、フォントサイズを縮小 */
+    }
+
+    /* 他のスタイルの調整が必要な場合はここに追加 */
+}
+
+.logout {
+    position: fixed;
+    top: 0%;
+    right: 2%;  /* 右からの距離を調整 */
+    /*z-index: 1000;  !* ページ上の他の要素よりも手前に表示 *!*/
+}
+
+/* コンテナのスタイル設定 */
+.container-fluid {
+    text-align: center;
+    padding: 50px; /* 上部、下部のパディングを設定 */
+}
+
+/* 他のスタイル設定は省略 */

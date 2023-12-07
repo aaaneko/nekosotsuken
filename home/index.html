@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desktop1chat home</title>
+
+  <!-- Bootstrap CSSとBootstrap Iconsを読み込む -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <!-- 外部CSSファイルを読み込む -->
+  <link rel="stylesheet" href="/home/css/style.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!--ログアウトボタン遷移 -->
+<div class="logout">
+  <a href="/nekosotsuken/login/index.html">
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+    <dotlottie-player src="./lottie/logout.lottie" background="transparent" speed="1" style="width: 100px; height: 100px;" loop hover></dotlottie-player>
+  </a>
+</div>
+
+<!-- "container-fluid"を使用して画面全体に広げる -->
+<div class="container-fluid mt-5">
+  <div class="row justify-content-center align-items-center">
+    <div class="col-auto">
+      <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+      <dotlottie-player src="https://lottie.host/97ba67a0-2d18-462a-88dd-0935ac231c86/9TbKB3opVh.json" background="transparent" speed="1" style="width: 100px; height: 100px;" loop autoplay></dotlottie-player>
+    </div>
+    <div class="col-auto">
+      <p class="name mb-0">name</p>
+    </div>
+  </div>
+  <div class="d-flex justify-content-center mt-3 bottom-icons">
+
+    <!--Notion投稿閲覧遷移ボタン    -->
+    <div class="icon-wrapper1">
+      <a href="/nekosotsuken/note/testVer1/uploadListVer2.html">
+        <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+        <dotlottie-player src="./lottie/notion.lottie" background="transparent" speed="1" style="width: 350px; height: 350px;" loop hover></dotlottie-player>
+        </a>
+    </div>
+
+    <!--QR・ID検索ボタン    -->
+    <div class="icon-wrapper2">
+      <a href="/nekosotsuken/search_select/index.html">
+        <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+        <dotlottie-player src="./lottie/qr.lottie" background="transparent" speed="1" style="width: 200px; height: 200px; " loop hover></dotlottie-player>
+      </a>
+    </div>
+
+    <!--グループチャット遷移ボタン    -->
+    <div class="icon-wrapper3">
+      <a href="/nekosotsuken/chat/index.html">
+        <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+        <dotlottie-player src="./lottie/chat.lottie" background="transparent" speed="1" style="width: 250px; height: 250px;" loop hover></dotlottie-player>
+      </a>
+    </div>
+
+    <!--チャットログ遷移ボタン    -->
+    <div class="icon-wrapper4">
+      <a href="/chatlog/index.html">
+        <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+        <dotlottie-player src="./lottie/loglist.lottie" background="transparent" speed="1" style="width: 300px; height: 300px;" loop hover></dotlottie-player>
+      </a>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
