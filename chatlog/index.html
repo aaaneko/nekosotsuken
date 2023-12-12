@@ -39,10 +39,11 @@
 
     .chat-room {
       display: flex;
-      align-items: center;
+      /*align-items: center;*/
       padding: 10px;
       cursor: pointer;
       transition: background-color 0.3s;
+      top: 0%;
     }
 
     .chat-room:hover {
@@ -54,12 +55,15 @@
     }
 
     .chat-content {
+      display: flex;
       padding: 20px;
       flex-grow: 1;
-      max-width: 500px;
+      /*max-width: 500px;*/
       text-align: center;
-      margin-left: 320px; /* チャットリスト幅 + マージンを適切に設定 */
+      margin-left: 50%; /* チャットリスト幅 + マージンを適切に設定 */
+      margin-bottom: 40%;
     }
+
   </style>
 </head>
 
@@ -69,15 +73,15 @@
     <!-- チャット一覧 -->
     <div class="chat-room" onclick="openChat('Chat1')">
       <i class="bi bi-chat-dots"></i>
-      Chat 1
+      <p>Chat 1</p>
     </div>
     <div class="chat-room" onclick="openChat('Chat2')">
       <i class="bi bi-chat-dots"></i>
-      Chat 2
+      <p>Chat 2</p>
     </div>
     <div class="chat-room" onclick="openChat('Chat3')">
       <i class="bi bi-chat-dots"></i>
-      Chat 3
+      <p>Chat 3</p>
     </div>
     <!-- チャット一覧ここまで -->
   </div>
