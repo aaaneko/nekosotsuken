@@ -7,7 +7,6 @@ body {
 
 /* アイコンのスタイル設定 */
 .bi {
-    font-size: 8rem;
     color: #007BFF;
 }
 
@@ -18,49 +17,39 @@ body {
     color: #333;
 }
 
+
 /* 下部のアイコンのスタイル設定 */
-/* icon-wrapper1 */
-/* 共通のスタイル */
-.icon-wrapper {
-    font-size: 7rem;
-    color: #007BFF;
-}
-
-/* icon-wrapper1 */
 .icon-wrapper1 {
-    margin: 7% 0% 5% 0; /* 上右下左のマージンを設定 */
+    font-size: 7rem;
+    margin-top: 125px; /* 下部のアイコンの上部の余白を設定 */
+    margin-bottom: 20px; /* 下部のアイコンの下部の余白を設定 */
+    margin-right: 200px; /* アイコン間の右側の余白を設定 */
 }
 
-/* icon-wrapper2 */
 .icon-wrapper2 {
-    margin: 11.5% 0% 5% 5%; /* 上右下左のマージンを設定 */
+    font-size: 7rem;
+    margin-top: 125px; /* 下部のアイコンの上部の余白を設定 */
+    margin-bottom: 20px; /* 下部のアイコンの下部の余白を設定 */
 }
 
-/* icon-wrapper3 */
 .icon-wrapper3 {
-    margin: 10% 0 5% 8%; /* 上右下左のマージンを設定 */
+    font-size: 7rem;
+    margin-top: 125px; /* 下部のアイコンの上部の余白を設定 */
+    margin-bottom: 20px; /* 下部のアイコンの下部の余白を設定 */
+    margin-left: 200px; /* アイコン間の右側の余白を設定 */
 }
 
-/* icon-wrapper4 */
-.icon-wrapper4 {
-    margin: 8% 0 5% 5%; /* 上右下左のマージンを設定 */
+.icon-wrapper4{
+    font-size: 7rem;
+    margin-top: 125px; /* 下部のアイコンの上部の余白を設定 */
+    margin-bottom: 20px; /* 下部のアイコンの下部の余白を設定 */
+    margin-left: 200px; /* アイコン間の右側の余白を設定 */
 }
 
-/* メディアクエリ */
-@media (max-width: 768px) {
-    .icon-wrapper {
-        font-size: 5rem; /* 768px以下の場合、フォントサイズを縮小 */
-    }
-
-    /* 他のスタイルの調整が必要な場合はここに追加 */
+.col-auto{
+    font-size: 7rem;
 }
 
-.logout {
-    position: fixed;
-    top: 0%;
-    right: 2%;  /* 右からの距離を調整 */
-    /*z-index: 1000;  !* ページ上の他の要素よりも手前に表示 *!*/
-}
 
 /* コンテナのスタイル設定 */
 .container-fluid {
@@ -68,4 +57,11 @@ body {
     padding: 50px; /* 上部、下部のパディングを設定 */
 }
 
-/* 他のスタイル設定は省略 */
+.logout {
+    font-size: 3rem;
+    position: fixed;
+    top: 0%;
+    right: 2%;  /* 右からの距離を調整 */
+    /*z-index: 1000;  !* ページ上の他の要素よりも手前に表示 *!*/
+}
+
