@@ -39,7 +39,7 @@ h1 {
 button{
     margin-top: 10px;
 }
-.bi{
+.bi-bucket{
     font-size: 3rem;
     color: #1da1f2;
 }
@@ -47,4 +47,9 @@ button{
 .tools-container button {
     margin-right: 10px; /* Adjust the margin as needed */
     margin-top: 10px;
+}
+
+.bi-camera-fill {
+    font-size: 3rem;
+    color: #007BFF;
 }
