@@ -1,3 +1,5 @@
+
+
 /* ヘッダースタイル */
 .header {
     display: flex;
@@ -6,8 +8,13 @@
     padding: 10px;
     background-color: #007BFF;
     color: white;
+    margin-bottom: 20px;
 }
-
+/* チャット入力スタイル */
+.chat-input {
+    display: flex;
+    margin-top: 20px;
+}
 .back-button {
     font-size: 2rem;
     cursor: pointer;
@@ -34,11 +41,7 @@
     color: #007BFF;
 }
 
-/* チャット入力スタイル */
-.chat-input {
-    display: flex;
-    margin-top: 20px;
-}
+
 
 .option-button {
     font-size: 2rem;
