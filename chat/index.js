@@ -1,5 +1,3 @@
-// script.js
-
 // ダミーメッセージの配列（実際のアプリではサーバーから取得するなど動的に取得する必要があります）
 const dummyMessages = [];
 
@@ -41,7 +39,7 @@ document.querySelector('.send-button').addEventListener('click', function () {
 
     if (message !== '') {
         // 実際のアプリではサーバーにメッセージを送信するなどの処理が必要です
-        dummyMessages.push({ sender: 'You', message });
+        dummyMessages.push({sender: 'You', message});
         displayMessages(); // メッセージを再表示
         inputElement.value = ''; // 入力欄をクリア
     }
