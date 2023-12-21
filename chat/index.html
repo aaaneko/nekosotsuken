@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,14 +11,18 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- External CSS file -->
     <link rel="stylesheet" href="/nekosotsuken/chat/style.css">
+
 </head>
 
 <body>
+
+<header>
+    <a href="/nekosotsuken/home/index.html">Home</a>
+    <h1>しすてむめい</h1>
+    <a href="/nekosotsuken/login/index.html">ログアウト</a>
+</header>
+
 <div class="header">
-    <i class="bi bi-arrow-return-left back-button"></i>
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-        <i class="bi bi-person-square chat-members-button"></i>
-    </button>
 
     <!--     モーダル処理-->
     <div class="modal fade" id="myModal">
@@ -47,6 +51,9 @@
 <div class="chat-messages" id="chatMessages"></div>
 
 <div class="chat-input">
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+        <i class="bi bi-person-square chat-members-button"></i>
+    </button>
 
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModalOption">
         <i class="bi bi-plus-square option-button" id="openOptions"></i>
@@ -87,6 +94,7 @@
     <button class="btn btn-primary send-button">
         <i class="bi bi-telegram"></i> 送信
     </button>
+
 </div>
 
 
