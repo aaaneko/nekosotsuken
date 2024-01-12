@@ -1,24 +1,8 @@
-/* ヘッダースタイル */
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 15px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-header a {
-    text-decoration: none;
-    color: #fff;
-}
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    margin-bottom: 20px;
+/* アイコンの背景色をヘッダーに合わせる */
+.header .chat-members-button {
+    color: white; /* アイコンのテキストカラーを白に設定 */
 }
 /* チャット入力スタイル */
 .chat-input {
@@ -40,10 +24,18 @@ header a {
     /* チャットメッセージのスタイルを追加 */
 }
 
+.chat-message {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
 .message-sender {
     font-weight: bold;
     color: #007BFF;
 }
+
+
 
 .option-button {
     font-size: 2rem;
@@ -94,4 +86,21 @@ header a {
     background-color: #007BFF; /* アイコンの背景色を設定 */
     color: white; /* アイコンのテキストカラーを白に設定 */
     border-radius: 10px; /* アイコンの角を設定 */
+}
+
+
+
+/*ヘッダー*/
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
 }
